@@ -37,6 +37,7 @@ function M.config()
                 end
             end,
             json = { 'jq', 'prettierd', 'prettier' },
+            jsonc = { 'prettierd', 'prettier' },
             -- Use the "*" filetype to run formatters on all filetypes.
             ['*'] = { 'codespell' },
             -- Use the "_" filetype to run formatters on filetypes that don't
